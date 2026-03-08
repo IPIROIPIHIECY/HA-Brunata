@@ -1,0 +1,19 @@
+{
+  "domain": "brunata_muenchen",
+  "name": "Brunata München",
+  "codeowners": [
+    "@IPIROIPIHIECY"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/IPIROIPIHIECY/my-brunata-mqtt-bridge",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/IPIROIPIHIECY/my-brunata-mqtt-bridge/issues",
+  "loggers": [
+    "brunata_api"
+  ],
+  "requirements": [
+    "brunata-nutzerportal-api==0.3.0"
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Brunata München",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brunata München Login",
+        "description": "Bitte gib deine Zugangsdaten für das Brunata Nutzerportal ein.",
+        "data": {
+          "base_url": "Portal URL",
+          "username": "E-Mail / Benutzername",
+          "password": "Passwort",
+          "sap_client": "SAP Mandant (Standard: 201)",
+          "sap_language": "SAP Sprache (Standard: DE)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Login fehlgeschlagen. Bitte überprüfe Benutzername und Passwort.",
+      "cannot_connect": "Verbindung zum Brunata Portal fehlgeschlagen.",
+      "unknown": "Unerwarteter Fehler."
+    },
+    "abort": {
+      "already_configured": "Dieses Brunata-Konto ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Brunata München Einstellungen",
+        "data": {
+          "scan_interval": "Update-Intervall"
+        }
+      }
+    }
+  }
+}
